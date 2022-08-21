@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: black;
+    padding: 0 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    flex-direction: column-reverse;
+}
+
+.function {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.function li {
+    font-size: 18px;
+    list-style: none;
+    margin: 0 14px;   
+}
+
