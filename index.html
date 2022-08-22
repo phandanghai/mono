@@ -9,6 +9,9 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
@@ -75,33 +78,65 @@
         </div>
 
         <div class="slider">
-            <img clas="img" src="https://mono.flatheme.net/assets/images/business-1-slide-2.jpg" alt="">
+            <!-- <img clas="img" src="https://mono.flatheme.net/assets/images/business-1-slide-2.jpg" alt=""> -->
         </div>
 
         <div class="idea">
             <div class="idea-show">
+                <img src="data:image/png;base64,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"
+                    alt="">
                 <h2>Consulting</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.</p>
             </div>
 
             <div class="idea-show">
-                <h2>Consulting</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <h2>Branding</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.</p>
             </div>
 
             <div class="idea-show">
-                <h2>Consulting</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///9UVFRNTU2SkpKYmJhQUFCAgICnp6efn59OTk5KSkqtra1GRkaqqqr8/PyDg4NCQkJ6enrs7OzJycnz8/Pg4OC/v7/T09NoaGhZWVmVlZVwcHBeXl6Li4va2tq0tLT7GIAAAAACIElEQVR4nO3c7W6CMBhA4VatSinIh+jc5nb/dznQ4Rx0H4mBwpvz/DLpn55QFZqqUgAAAAAAAAAAAAAAAAAAAAAAAADwqLQWeg6DKw6hZzCsamnz0HMYyGVxHnO3MOvQUxnO4ckZrcUW7pOT0w2Bhc36rJ6tNVpqoVJvO7fQLYGF5YszWsssrNdn+v7q9DeiClWx1Z0+WYXVOVt0+2QVbnvXT1rhxnMFKZwXCuePwvmjcP7kFra7aVILi+d2q0lm4dvaWaGFl53e8iWrG9oEUYVN375+2DX3CaIKLw+7tpMgpPD6wVmdre0lCClsEss8izwJUgrV4TXzJ8y/sFmgxcbZnxJmX5h+f/sJLFQq9u2liSpM+heQQgonhkIKp4/C2RbeTjVJLfw6tiW1UBXvny+EFlbnrN1qEllY3p/bkleYds5tySm8frYUG309GBPJK2wUy9vDrrjC5goe13d7TcIK07R9+0ktVPv41DkXI6iwXp/FyvQyBBWqauei/hwlFSbec1uSCmNvAoUUhqrxoZBCCsOjkEIKw6OQQgrDo5BCCsOjkEIKw6OQQgrDo5BCCsNLsoWHu/38znlGI/vrsHWT+iescrX1if857B29DU/BH38e99gwAGDekuWozsnohbn13ckMJbLj38atje9+cjBmRyGFFFI4tGj8wtyaMb8uAnxbxKtxTemRGAAAAAAAAAAAAAAAAAAAAAAAAAAe8gF0HzWMr1OLXgAAAABJRU5ErkJggg=="
+                    alt="">
+                <h2>Marketing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.</p>
             </div>
         </div>
 
         <div class="icon">
             <div class="icon-text">
                 <h2>Meet Our Partners</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus
+                    et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
 
-            
+            <div class="table">
+                <div class="column">
+                    <img src="https://mono.flatheme.net/assets/images/client-1.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-2.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-3.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-4.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-5.png" alt="">
+                </div>
+
+                <div class="column">
+                    <img src="https://mono.flatheme.net/assets/images/client-6.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-7.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-8.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-2.png" alt="">
+                    <img src="https://mono.flatheme.net/assets/images/client-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer-image">
+            <!-- <img src="https://mono.flatheme.net/assets/images/business-1-parallax.jpg" alt=""> -->
         </div>
     </div>
 </body>
